@@ -1,11 +1,8 @@
-def swap_case(s):
-    swap = list(s)
-    swapped = ''
-    for x in swap:
-        if x == x.upper():
-            swapped += x.lower()
-        elif x == x.lower():
-            swapped += x.upper()
-        else:
-            swapped += x
-    return swapped
+####Task ####
+You are given a string S. Your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa.
+
+####Input Format ####
+A single line containing a string S.
+
+####Output Format ####
+Print the modified string S.
