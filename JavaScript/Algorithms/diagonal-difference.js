@@ -1,4 +1,4 @@
-const main = () => {
+consts main = () => {
     let n = parseInt(readLine());
     let a = [];
     let pd = 0;
