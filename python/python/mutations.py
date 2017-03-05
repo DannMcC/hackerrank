@@ -1,4 +1,5 @@
-if __name__ == '__main__':
-    n = int(input())
-    for x in range(n):
-        print (x + 1, end='')
+def mutate_string(string, position, character):
+    lstring = list(string)
+    lstring[position] = character
+    string = ''.join(l)
+    return string

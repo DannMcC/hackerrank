@@ -1,17 +1,6 @@
 ####Task ####
-Read an integer N.
+We have seen that lists are mutable (they can be changed), and tuples are immutable (they cannot be changed).
 
-Without using any string methods, try to print the following:
+Let's try to understand this with an example.
 
-123...N
-
-Note that "" represents the values in between.
-
-#### Input Format ####
-The first line contains an integer N.
-
-#### Output Format ####
-1 <= N => 20
-
-#### Output Format ####
-Output the answer as explained in the task.
+You are given an immutable string, and you want to make changes to it.
