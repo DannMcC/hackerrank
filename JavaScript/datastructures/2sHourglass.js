@@ -26,3 +26,11 @@ function main() {
        arr[arr_i] = readLine().split(' ');
        arr[arr_i] = arr[arr_i].map(Number);
     }
+    let hourglass = []
+        for (let i = 1; i < 5; i++){
+            for (let x = 1; x < 5; x++){
+            hourglass.push((arr[i-1][x-1] + arr[i-1][x] + arr[i-1][x + 1] + arr[i][x] + arr[i+1][x-1] + arr[i+1][x] + arr[i+1][x+1]))
+            }
+        }
+        console.log(Math.max(...hourglass))
+    }
