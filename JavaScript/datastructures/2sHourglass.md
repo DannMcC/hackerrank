@@ -1,5 +1,7 @@
 (https://www.hackerrank.com/challenges/2d-array)
-####Context####
+
+#### Context ####
+
 Given a 6 x 6 2D Array, A:
 ```
 1 1 1 0 0 0
@@ -10,13 +12,19 @@ Given a 6 x 6 2D Array, A:
 0 0 0 0 0 0
 ```
 
-####Task ####
-Read two integers and print two lines. The first line should contain integer division, a // b. The second line should contain float division, a / b.
+We define an hourglass in ! to be a subset of values with indices falling in this pattern in A's graphical representation:
+```
+a b c
+  d
+e f g
+```
+There are 16 hourglasses in A, and an hourglass sum is the sum of an hourglass' values.
+#### Task ####
 
-You don't need to perform any rounding or formatting operations.
+Calculate the hourglass sum for every hourglass in A, then print the maximum hourglass sum
 
 #### Input Format ####
-The first line contains the first integer, a . The second line contains the second integer, b .
+There are 6 lines of input, where each line contains 6 space-separated integers describing 2D Array A; every value in A will be in the inclusive range of -9 to 9.
 
 #### Output Format ####
-Print the two lines as described above.
+Print the largest (maximum) hourglass sum found in A.
